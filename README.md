@@ -2,6 +2,22 @@
 
 A collection of simple scripts to manage domain names using the Godaddy API
 
+**Table of Contents**
+- [GDAPI](#gdapi)
+  - [Introduction](#introduction)
+  - [System requirements](#system-requirements)
+    - [Linux (bash)](#linux-bash)
+    - [Windows (Powershell) - coming soon](#windows-powershell-coming-soon)
+  - [Configuration](#configuration)
+    - [Obtaining your API key](#obtaining-your-api-key)
+    - [Adding your API credentials](#adding-your-api-credentials)
+    - [User settings](#user-settings)
+  - [Usage](#usage)
+  - [Known bugs and limitations](#known-bugs-and-limitations)
+    - [Limitations](#limitations)
+    - [Bugs](#bugs)
+
+
 ## Introduction
 
 The scripts provided in this package can be used to perform the following actions on domain names that you own, that are registered with **Godaddy**:
@@ -102,7 +118,7 @@ Option #3 will set name servers, unlock the domain name and disable the auto-ren
 - This API does not grant access to the Godaddy auctions
 - For the sake of simplicity there is no elaborate error handling
 
-## Bugs
+### Bugs
 
 For some reason the script may return a response like this, even though the changes are carried out:
 ```
